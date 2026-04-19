@@ -1,0 +1,37 @@
+# Dataset — too large (~350 MB per experiment)
+**/data/
+data/
+
+# Trained model checkpoints
+**/log/
+log/
+
+# Raw training output logs (25–32 MB each)
+logs/
+
+# Base PointNet++ repo — not ours
+Pointnet_Pointnet2_pytorch/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Old/intermediate report generators
+generate_report_pdf.py
+generate_reports.py
+generate_reports_v2.py
+generate_ieee_report.py
+generate_pointcloud_viz.py
+generate_inference_viz.py
+report_experiments.pdf
+report_research_paper.pdf
+report_class_assignment.pdf
+report_IEEE.pdf
+plot_pointclouds.png
+plot_inference_grid.png
+
+# Misc
+*.out
+.DS_Store
