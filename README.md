@@ -1,7 +1,5 @@
 # Exploring Architectural Modifications to PointNet++
 
-**CSE 507 · Arizona State University · April 2026**
-
 A systematic empirical study of eight controlled architectural modifications applied to [PointNet++](https://arxiv.org/abs/1706.02413) for 3-D point cloud classification on the ModelNet40 benchmark.
 
 ---
